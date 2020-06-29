@@ -1,0 +1,127 @@
+body{
+  width: 1440px;
+  background-color: hsl(229, 57%, 11%);
+  color: white;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1{
+  padding-bottom: 25px;
+  position: relative;
+  left: 10px;
+  font-weight: 700;
+}
+
+p{
+  color: hsl(243, 100%, 93%);
+  font-weight: 200;
+  font-size: 0.8rem;
+  text-align: left;
+}
+
+.container-fluid{
+  text-align: center;
+  position: relative;
+  top: 250px;
+}
+
+/* left card */
+.left-card{
+  display: inline-block;
+  background-color: hsl(228, 56%, 26%);
+  padding: 30px;
+  border-radius: 10px 70px 10px 10px;
+  width: 20%;
+  text-align: left;
+  margin: 10px;
+  position: relative;
+  top: 10px;
+
+}
+
+.icon-container{
+  background-color: hsl(229, 57%, 11%);
+  padding: 10px;
+  margin: 5px;
+  display: inline;
+  border-radius: 10px;
+
+}
+
+/* right card */
+.right-card{
+  display: inline-block;
+  background-color: hsl(228, 56%, 26%);
+  border-radius: 10px;
+  width: 30%;
+  padding: 25px;
+  margin: 10px;
+
+}
+
+.bold-p{
+  font-weight: bold;
+}
+
+.remainder-container{
+  background-color: white;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 10px 15px;
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  right: 300px;
+
+}
+
+.bold-remainder{
+  color: hsl(229, 57%, 11%);
+  font-weight: bold;
+  font-size: 2rem;
+  font-weight: 700;
+  padding-right: 5px;
+}
+
+.remainder{
+  color: hsl(229, 7%, 55%);
+  font-size: 0.7rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+/* progress bar */
+.labels{
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.progress{
+  height: 18px;
+  border-style: solid;
+  border-color: hsl(228, 56%, 26%);
+  border-radius: 20px;
+}
+
+.progress-bar{
+  background: -webkit-linear-gradient(left, hsl(6, 100%, 80%) 0%,hsl(335, 100%, 65%) 100%); /* Chrome10-25,Safari5.1-6 */
+}
+
+
+
+.background-img{
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  z-index: -1;
+  width: 100%;
+}
+
+.attribution{
+  position: fixed;
+  bottom: 2%;
+  right: 5%;
+}
